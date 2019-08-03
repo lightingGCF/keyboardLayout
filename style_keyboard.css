@@ -1,0 +1,46 @@
+:root {
+    box-sizing: border-box;
+    background-color:lemonchiffon;
+    --keyCapRadius: .3em;
+    --keyCapWidth: 3em;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.keyboard {
+    border: 1px dotted gray;
+    border-radius: var(--keyCapRadius);
+    box-shadow: 1em .5em gray;
+    margin: 3em auto;
+    width: fit-content;
+    font-size: 1em;
+} 
+
+.keyboard-name {
+    position: relative;
+    top: -1.5em;
+    text-align: right;
+}
+.row {
+    display: block;
+    margin: .3em;
+}
+
+.keyCap {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: var(--keyCapRadius);
+    width: var(--keyCapWidth);
+    height: var(--keyCapWidth);
+    padding: .3em;
+    text-transform: capitalize;
+}
+.keyCap:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.baseKey {
+    text-transform: uppercase; 
+}

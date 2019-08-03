@@ -1,0 +1,27 @@
+.width-1-25 {
+    width: calc(var(--keyCapWidth) * 1.25);
+}
+.width-1-5 {
+    width: calc(var(--keyCapWidth) * 1.5);
+}
+.width-1-85 {
+    width: calc(var(--keyCapWidth) * 1.85);
+}
+.width-2 {
+    width: calc(var(--keyCapWidth) * 2);
+}
+.width-2-2 {
+    width: calc(var(--keyCapWidth) * 2.2);
+}
+.width-2-5 {
+    width: calc(var(--keyCapWidth) * 2.5);
+}
+.width-2-6 {
+    width: calc(var(--keyCapWidth) * 2.6);
+}
+.width-3 {
+    width: calc(var(--keyCapWidth) * 3);
+}
+.width-6-75 {
+    width: calc(var(--keyCapWidth) * 6.75);
+}
